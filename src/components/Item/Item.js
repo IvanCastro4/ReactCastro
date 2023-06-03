@@ -1,6 +1,8 @@
-import { Link } from 'react-router-dom'
-import { useParams } from 'react-router-dom'
-import './Item.css' 
+import { Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
+import './Item.css' ;
+import React,{cartContext} from '../../context/cartContext';
+import {useContext} from 'react';
 const Item = ({personaje, precio, id, stock, img})=>{
     return(
         <article className="CardItem">

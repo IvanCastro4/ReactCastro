@@ -1,4 +1,23 @@
-enlaces {
-    color: var(#debc0f);
+.enlaces {
+    color: aliceblue;
     text-decoration: none;
+    font-size: 25px;
+    align-items: center;
+    display: flex;
+    margin-right: 7px;
+}
+.Option{
+    .enlaces {
+        color:aliceblue;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+}
+.inicio{
+    color: rgb(12, 114, 165);
+    text-decoration: none;
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    margin-right: 10px;
 }
